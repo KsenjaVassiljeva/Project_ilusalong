@@ -8,3 +8,6 @@
 ![Ilusalong2](https://i.imgur.com/IVROqVP.png)
 # töötajad
 ![Ilusalong3](https://i.imgur.com/KPQQlrG.png)
+
+##Видео демонстрация
+[Imgur video](https://i.imgur.com/UYLOxIT.mp4)
