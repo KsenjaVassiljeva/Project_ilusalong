@@ -4,3 +4,7 @@
 
 ## Дата База
 ![Ilusalong](https://i.imgur.com/axUwjlL.png)
+# teenused
+![Ilusalong2](https://i.imgur.com/IVROqVP.png)
+# töötajad
+![Ilusalong3](https://i.imgur.com/KPQQlrG.png)
