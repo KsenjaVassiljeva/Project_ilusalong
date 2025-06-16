@@ -72,3 +72,83 @@ nav a {
     gap: 1rem;
   }
 }
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.booking-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #333;
+}
+
+.booking-form input,
+
+.booking-form select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  background: #aac0e3;
+  border: none;
+  padding: 0.7rem;
+  font-weight: bold;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-form button:hover {
+  background: #8caad1;
+}
+
+@media (max-width: 768px) {
+  .booking-form {
+    width: 100%;
+  }
+}
+
+/* Анимация появления */
+.animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Кнопка: плавный эффект наведения */
+.booking-form button {
+  transition: all 0.3s ease;
+}
+
+.booking-form button:hover {
+  transform: scale(1.05);
+  background-color: #8caad1;
+}
+
+/* Встряска при отправке */
+.shake {
+  animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+
